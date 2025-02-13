@@ -8,7 +8,7 @@ function Service() {
     <section className="w-full h-auto flex flex-col justify-center items-center">
       <div className="w-full p-10  flex justify-center items-center">
         <h1 className="text-3xl my-4 sm:my-0 md:text-5xl font-bold">
-          Our Services
+          Our Blog's
         </h1>
       </div>
       <div className="w-full p-2 sm:p-0 overflow-hidden">

@@ -13,7 +13,7 @@ function Achievement() {
             <div className="flex flex-row justify-center items-center">
               <SvgIcon1 />
               <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-primary ml-2">
-                1.2K+
+                300+
               </p>
             </div>
             <p className="font-medium text-base sm:text-lg leading-6 mt-3 md:mt-6 text-center">
@@ -35,7 +35,7 @@ function Achievement() {
             <div className="flex flex-row justify-center items-center">
               <SvgIcon3 />
               <p className="font-bold text-3xl sm:text-4xl lg:text-5xl leading-9 text-primary ml-2">
-                2.5K+
+                200+
               </p>
             </div>
             <p className="font-medium text-base sm:text-lg leading-6 mt-3 md:mt-6 text-center line-clamp-1">

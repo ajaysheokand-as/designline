@@ -19,6 +19,10 @@ export const navData = [
     title: "Projects",
   },
   {
+    path: "/services",
+    title: "Services",
+  },
+  {
     path: "/blog",
     title: "Blog",
   },
