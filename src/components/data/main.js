@@ -22,10 +22,10 @@ export const navData = [
     path: "/services",
     title: "Services",
   },
-  {
-    path: "/blog",
-    title: "Blog",
-  },
+  // {
+  //   path: "/blog",
+  //   title: "Blog",
+  // },
   {
     path: "/career",
     title: "Career",
@@ -55,6 +55,128 @@ export const sliderData = {
 };
 
 export const serviceData = [
+  {
+    id : 1,
+    img : "/images/rode11.webp",
+    heading: "Feasibility Studies",
+    description:
+    "Comprehensive professional services focused on the planning, design, and oversight of road infrastructure projects, ensuring efficient layouts, sustainable solutions, and adherence to quality and safety standards throughout the lifecycle of the project.",
+  },
+  {
+    id : 2,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Construction Management",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 3,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Project Management",
+    description:
+      "Expert services focused on analyzing traffic patterns, forecasting demand, and designing transportation systems to optimize mobility, safety, and efficiency. This includes conducting traffic impact assessments, developing traffic management plans,"
+  },
+  {
+    id : 4,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Preliminary & Final Design",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 5,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Detailed Project Report",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 6,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Detail Design",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 7,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Proof Checking",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 8,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Road Safety Audits",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 9,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Pedestrian Bridges",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 10,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Building Design",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 11,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Road Evaluation: Road Condition Assessment using NSV (Network Survey Vehicle)",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 12,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Pavement Strength Assessment using FWD (Falling Weight Deflect meter)",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 13,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Traffic Count using ATCC (Automatic Traffic Counter and Classifier) ",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 14,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Structural Condition Assessment using MBIU (Mobile Bridge Inspection Unit)",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 15,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Signage & Marking Condition Assessment using RR (Retro-Reflectivity)",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 16,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Environmental & Social Studies: Impact Studies",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+  {
+    id : 17,
+    img : "/images/rodeDesign.jpeg",
+    heading: "Forest Clearance Proposals",
+    description:
+    "Specialized services in the planning and engineering of bridges, road over bridges (ROB), and flyovers, focusing on structural integrity, functionality, and aesthetic design to ensure safe and efficient connectivity while accommodating site-specific requirements and traffic demands.",
+  },
+];
+
+export const blogsData = [
   {
     id : 1,
     img : "/images/rode11.webp",
@@ -249,6 +371,7 @@ export const footerData = {
     " © Copyright 2025, All Rights Reserved by Design Line . PVT. LTD",
   contact: "+91 81684 44506",
   email: "info@dlcsgroup.in",
+  email2: "tech.designlinepvtltd@gmail.com",
   adress: `DSS71, Huda Market, Sector 15A, Hisar (125001)`,
 };
 

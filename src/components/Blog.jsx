@@ -1,6 +1,7 @@
 import React from 'react'
 import Service from './Service'
 import Footer from './Footer'
+import { Blogs } from './Blogs'
 
 function Blog() {
   return (
@@ -10,7 +11,7 @@ function Blog() {
           <h1 className='text-white text-6xl lg:text-[10rem] font-bold ml-8 md:ml-16 mt-40'>Blo<span className='text-blue-500'>g</span></h1>
         </div>
       </div>
-      <Service />
+      <Blogs/>
       <div className='p-4'> </div>
       <Footer />
     </section>

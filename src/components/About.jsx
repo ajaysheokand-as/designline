@@ -51,7 +51,7 @@ const About = () => {
                 that stand the test of time while meeting modern sustainability standards.
               </p>
               <ul className="space-y-2 text-gray-600">
-                <li>✓ 500+ Completed Projects</li>
+                <li>✓ 200+ Completed Projects</li>
                 <li>✓ LEED Certified Professionals</li>
                 <li>✓ 24/7 Project Support</li>
                 <li>✓ 5-Year Workmanship Guarantee</li>

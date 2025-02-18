@@ -10,7 +10,11 @@ import Career from "./components/Career";
 import History from "./components/History";
 import ProjectDetail from "./components/ProjectDetail";
 import { Services } from "./components/Services";
+import { useEffect } from "react";
 function App() {
+  useEffect(()=>{
+    window.scrollTo({ top: 0, behavior: 'smooth' }); 
+  },[])
   return (
     <div className="App">
       <BrowserRouter>

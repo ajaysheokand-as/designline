@@ -123,9 +123,9 @@ Design Line Consultancy Services Private Limited (DLCSPL) is a testament to dedi
               </p>
               </div>
               <div className='w-[250px]'>
-                <div className='absolute bg-orange-500 p-2'>
+                {/* <div className='absolute bg-orange-500 p-2'>
                   <h1 className='text-sm md:text-lg'>{item.date}</h1>
-                </div>
+                </div> */}
                 <img src={item.img} alt=""  className='rounded-lg ' />
               </div> 
             </div>

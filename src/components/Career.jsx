@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import { careerPage , benefitsSection , jobSection } from "./data/main";
+import { careerPage , benefitsSection , jobSection, footerData } from "./data/main";
 function Career() {
   return (
     <>
@@ -83,6 +83,10 @@ function Career() {
         </p>
         <a href={`mailto:${jobSection.email}`} className="text-blue-500">
           {jobSection.email}
+        </a> 
+        &nbsp;OR &nbsp; 
+        <a href={`mailto:${footerData.email2}`} className="text-blue-500">
+          {footerData.email2}
         </a>
         <p className="mt-4">
          {jobSection.text}
