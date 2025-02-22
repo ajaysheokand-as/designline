@@ -2476,25 +2476,25 @@ export const clientsData = [
     img: "/images/client7.png",
   },
   {
-    img: "/images/client_img/d_r_infra_logo.jpeg",
+    img: "/images/clients/d_r_infra_logo.jpeg",
   },
   {
-    img: "/images/client_img/Fmda.jpeg",
+    img: "/images/clients/Fmda.jpeg",
   },
   {
-    img: "/images/hsrdc.jpg",
+    img: "/images/clients/hsrdc.jpg",
   },
   {
-    img: "/images/PMGSY.png",
+    img: "/images/clients/PMGSY.png",
   },
   {
-    img: "/images/punjab.jpeg",
+    img: "/images/clients/punjab.jpeg",
   },
   {
-    img: "/images/HPGVL.jpeg",
+    img: "/images/clients/HPGCL.jpeg",
   },
   {
-    img: "/images/V_STAINLESS.jpeg",
+    img: "/images/clients/V_STAINLESS.jpeg",
   },
 ];
 
