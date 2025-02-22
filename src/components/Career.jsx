@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "./Footer";
-import { careerPage , benefitsSection , jobSection, footerData } from "./data/main";
+import {benefitsSection , jobSection, footerData } from "./data/main";
 function Career() {
   return (
     <>
@@ -13,29 +13,15 @@ function Career() {
           </div>
         </div>
       </section>
-      <div className="max-w-6xl mx-auto p-6 ">
-        <div className="flex flex-col md:flex-row items-center gap-5">
-          <div className="md:w-1/2 mt-6 md:mt-0 md:pl-6">
-            <img
-              src={careerPage.img}
-              alt="Two professionals discussing work at a laptop"
-              className="w-full h-auto rounded-lg shadow-md"
-            />
-          </div>
-          <div className="md:w-1/2">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            {careerPage.heading}
-            </h1>
-            <p className="text-gray-700 mb-4">
-             {careerPage.paragraph1}
-            </p>
-            <p className="text-gray-700">
-             
-             {careerPage.paragraph2}
-            </p>
-          </div>
+      {/* Future Aspects */}
+      <section className="py-16 bg-gray-100 px-4 md:px-8">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6 text-gray-800">Future Aspects</h2>
+          <p className="text-gray-600 text-lg leading-relaxed">
+          At Design Line Consultancy Services Pvt. Ltd., our vision is to be recognized as a world-class consulting organization, delivering cutting-edge, sustainable, and value-driven engineering solutions. We are committed to shaping a better future by integrating innovation, technology, and expertise to meet the evolving needs of our clients and communities. Our goal is to ensure excellence in every project—delivering solutions on time, within budget, and as promised—anywhere in the world. By fostering a culture of integrity, collaboration, and continuous improvement, we aim to set new benchmarks in the industry and contribute to a more sustainable and resilient future.
+          </p>
         </div>
-      </div>
+      </section>
       <section>
         <div className="max-w-6xl mx-auto p-6">
           <h1 className="text-4xl font-bold mb-4">{benefitsSection.heading}</h1>
@@ -62,6 +48,7 @@ function Career() {
           </div>
         </div>
       </section>
+
       <div className="p-6 md:p-20">
         <div className="border-l-4 border-green-500 pl-4">
           <p className="text-green-500 font-bold">HIRING</p>

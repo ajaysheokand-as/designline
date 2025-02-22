@@ -11,6 +11,7 @@ import History from "./components/History";
 import ProjectDetail from "./components/ProjectDetail";
 import { Services } from "./components/Services";
 import { useEffect } from "react";
+import Gallery from "./components/Gallery";
 function App() {
   useEffect(()=>{
     window.scrollTo({ top: 0, behavior: 'smooth' }); 
@@ -28,7 +29,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/career" element={<Career />} />
         <Route path="/history" element={<History />} />
+        <Route path="/gallery" element={<Gallery/>} />
         <Route path="/project/:id" element={<ProjectDetail />} />
+
       </Routes>
       </BrowserRouter>
     </div>

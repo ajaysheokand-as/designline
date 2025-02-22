@@ -26,11 +26,22 @@ function Service() {
               {chunk.map((item) => (
                 <div
                   key={item.id}
-                  className="max-w-sm mx-auto p-6 border-2 border-gray-800 rounded-lg shadow-lg bg-white transform transition duration-300 hover:scale-105 hover:shadow-2xl hover:border-blue-500"
+                  className="relative group w-full h-64 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
                 >
-                  <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-gray-900">
-                    {item.heading}
-                  </h5>
+                  {/* Background Image */}
+                  <div
+                    className="absolute inset-0 bg-cover bg-center"
+                    style={{
+                      backgroundImage: `url(${item.img})`,
+                    }}
+                  ></div>
+
+                  {/* Overlay & Hover Effect */}
+                  <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <h5 className="text-2xl font-bold text-white text-center px-4">
+                      {item.heading}
+                    </h5>
+                  </div>
                 </div>
               ))}
             </div>

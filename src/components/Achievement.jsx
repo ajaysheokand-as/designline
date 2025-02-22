@@ -17,7 +17,7 @@ function Achievement() {
               </p>
             </div>
             <p className="font-medium text-base sm:text-lg leading-6 mt-3 md:mt-6 text-center">
-              Our Experts
+              Happy Clients
             </p>
           </div>
           <div className="flex flex-col justify-center items-center bg-[#F3F9FF] px-4 h-[126px] w-[100%] md:w-[281px] md:h-[192px] rounded-lg justify-self-center">
