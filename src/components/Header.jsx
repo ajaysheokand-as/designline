@@ -48,7 +48,7 @@ export const Header = () => {
         </div>
 
         {/* Image Section */}
-        <div className="grid grid-cols-2 gap-4 mt-8">
+        {/* <div className="grid grid-cols-2 gap-4 mt-8">
           <div className="w-full h-[90%] rounded-lg overflow-hidden">
             <img
               className="w-full h-full rounded-lg transform hover:scale-105 duration-700 cursor-pointer"
@@ -63,7 +63,7 @@ export const Header = () => {
               alt="office content 2"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
